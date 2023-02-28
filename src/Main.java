@@ -26,7 +26,7 @@ public class Main {
     }
 
     public void countEvenNumbers(List<Integer> list) {
-        System.out.println("\nСписок четных чисел: ");
+        System.out.println("\nСписок целых чисел: ");
         System.out.println("\nКоличество четных чисел в списке = " + list.stream()
                 .filter(x -> x % 2 == 0)
                 .peek(x -> System.out.print(x + " "))
